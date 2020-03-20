@@ -8,5 +8,8 @@ void SR_Reset(void);
 
 void SR_SetValue(uint16_t value);
 
+void SR_SetPin(uint16_t pin);
+void SR_ResetPin(uint16_t pin);
+
 #include "NRF_ShiftRegister.c"
 #endif
