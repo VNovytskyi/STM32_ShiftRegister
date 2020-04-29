@@ -1,5 +1,5 @@
-#ifndef NRF_ShiftRegister
-#define NRF_ShiftRegister
+#ifndef ShiftRegister
+#define ShiftRegister
 
 #define cs_strob() cs_reset(); cs_set()
 
@@ -11,5 +11,5 @@ void SR_SetValue(uint16_t value);
 void SR_SetPin(uint16_t pin);
 void SR_ResetPin(uint16_t pin);
 
-#include "NRF_ShiftRegister.c"
+#include "ShiftRegister.c"
 #endif
